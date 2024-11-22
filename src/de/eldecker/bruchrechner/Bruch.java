@@ -153,7 +153,9 @@ class Bruch {
 
     /**
      * Berechnung größter gemeinsamer Teiler von {@code a} und {@code b},
-     * wird für die Kürzung von Brüchen benötigt.
+     * wird für die Kürzung von Brüchen benötigt; verwendet den
+     * Wechselwegnahme-Algorithmus, bei dem in jedem Schleifenlauf
+     * die kleinere von der größeren Zahl abgezogen wird.
      * <br><br>
      *
      * Beispiel: {@code ggt( 12, 18 )} ergibt {@code 6}.

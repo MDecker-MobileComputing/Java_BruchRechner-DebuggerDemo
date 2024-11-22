@@ -1,8 +1,12 @@
-# Bruch-Rechner mit Java, Demo für Debugger in Eclipse #
+# Bruch-Rechner mit Java, Demo für Debugger von Eclipse #
 
 <br>
 
-Beispielrechnung:
+Beispielprojekt für Demonstration Debugger von Eclipse.
+
+<br>
+
+**Beispielrechnung:**
 
 ![Formel](Beispielrechnung.png)
 
