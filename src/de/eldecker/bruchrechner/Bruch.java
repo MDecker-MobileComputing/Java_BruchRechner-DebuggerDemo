@@ -68,18 +68,8 @@ class Bruch {
 
 
     /**
-     * Dezimalwert für Bruch zurückgeben, z.B. {@code 0.5} für {@code 1/2}.
-     *
-     * @return Dezimalwert
-     */
-    public double wert(){
-
-        return (double) zaehler / nenner;
-    }
-
-
-    /**
      * Multipliziert den Bruch mit einem anderen Bruch.
+     * Rechenregel: Zähler mal Zähler, Nenner mal Nenner.
      *
      * @param b Bruch, mit dem multipliziert werden soll
      *
@@ -141,6 +131,17 @@ class Bruch {
 
         return addieren( bNegiert );
     }
+    
+    
+    /**
+     * Dezimalwert für Bruch zurückgeben, z.B. {@code 0.5} für {@code 1/2}.
+     *
+     * @return Dezimalwert
+     */
+    public double wert(){
+
+        return (double) zaehler / nenner;
+    }    
 
 
     /**
