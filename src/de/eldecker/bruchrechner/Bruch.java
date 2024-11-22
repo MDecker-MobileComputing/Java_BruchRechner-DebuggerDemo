@@ -54,7 +54,10 @@ class Bruch {
 
 
     /**
-     * Negiert den Bruch, macht bspw. aus {@code 1/2} {@code -1/2}.
+     * Negiert den Bruch.
+     * <br>
+     * 
+     * Beispiel: der Kehrwert von {@code 3/4} ist {@code 4/3}.     
      *
      * @return Negierter Bruch
      */
@@ -92,6 +95,7 @@ class Bruch {
         return produkt.kuerze();
     }
 
+    
     /**
      * Dividiert den Bruch durch einen anderen Bruch
      * (durch Multiplikation mit dem Kehrwert).
@@ -147,7 +151,7 @@ class Bruch {
     @Override
     public String toString(){
 
-      return zaehler + "/" + nenner;
+    	return zaehler + "/" + nenner;
     }
 
 
@@ -168,9 +172,9 @@ class Bruch {
      */
     public static int ggt ( int a, int b ) {
 
-        if (a==0) { return b; }
+        if ( a == 0 ) { return b; }
 
-        if (b==0) { return a; }
+        if ( b == 0 ) { return a; }
 
         int x = Math.abs( a );
         int y = Math.abs( b );
@@ -179,17 +183,16 @@ class Bruch {
 
             if ( x > y ) {
 
-              x = x - y;
+            	x = x - y;
 
             } else {
 
-              y = y - x;
+            	y = y - x;
             }
         }
 
         return x;
-      }
-
+    }
 
 }
 
