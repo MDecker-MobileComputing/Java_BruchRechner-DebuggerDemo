@@ -15,6 +15,7 @@ Quellcode-Vorlage: Übungsblatt 9 (P) von "Einführung in die Programmierung" an
 ![Formel](Beispielrechnung.png)
 
 
-Diese Berechnung wird von der im Projekt enthaltenen `main`-Methode durchgeführt.
+Diese Berechnung wird von der im Projekt enthaltenen
+[`main`-Methode](src/de/eldecker/bruchrechner/BruchTest.java#L6) durchgeführt.
 
 <br>
