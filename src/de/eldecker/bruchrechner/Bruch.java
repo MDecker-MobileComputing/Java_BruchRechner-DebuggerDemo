@@ -78,7 +78,7 @@ class Bruch {
     public Bruch multiplizieren( Bruch b ){
 
         int zaehlerNeu = b.zaehler * this.zaehler;
-        int nennerNeu  = b.nenner  * this.nenner;
+        int nennerNeu  = b.nenner  * this.zaehler;
 
         Bruch produkt = new Bruch( zaehlerNeu, nennerNeu );
 
