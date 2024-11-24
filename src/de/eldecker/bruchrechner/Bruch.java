@@ -12,7 +12,7 @@ class Bruch {
 
 
     /**
-     * Neuen Bruch erzeugen
+     * Konstruktor, um neuen Bruch zu erstellen.
      *
      * @param zaehler Zähler-Wert
      *
