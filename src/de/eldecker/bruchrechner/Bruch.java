@@ -18,7 +18,7 @@ class Bruch {
      *
      * @param nenner Nenner, darf nicht 0 sein
      */
-    public Bruch( int zaehler, int nenner ){
+    public Bruch( int zaehler, int nenner ) {
 
           this.zaehler = zaehler;
           this.nenner  = nenner;
@@ -75,7 +75,7 @@ class Bruch {
      *
      * @return Gekürztes Ergebnis
      */
-    public Bruch multiplizieren( Bruch b ){
+    public Bruch multiplizieren( Bruch b ) {
 
         int zaehlerNeu = b.zaehler * this.zaehler;
         int nennerNeu  = b.nenner  * this.zaehler;
@@ -94,7 +94,7 @@ class Bruch {
      *
      * @return Gekürztes Ergebnis
      */
-    public Bruch dividieren( Bruch b ){
+    public Bruch dividieren( Bruch b ) {
 
         Bruch bKehrwert = b.kehrwert();
 
@@ -109,7 +109,7 @@ class Bruch {
      *
      * @return Gekürztes Ergebnis
      */
-    public Bruch addieren( Bruch b ){
+    public Bruch addieren( Bruch b ) {
 
         int zaehlerNeu = zaehler*b.nenner + b.zaehler*nenner;
         int nennerNeu  = nenner*b.nenner;
@@ -125,7 +125,7 @@ class Bruch {
      *
      * @return Gekürztes Ergebnis
      */
-    public Bruch subtrahieren( Bruch b ){
+    public Bruch subtrahieren( Bruch b ) {
 
         Bruch bNegiert = b.negieren();
 
@@ -138,7 +138,7 @@ class Bruch {
      *
      * @return Dezimalwert
      */
-    public double wert(){
+    public double wert() {
 
         return (double) zaehler / nenner;
     }    
@@ -150,7 +150,7 @@ class Bruch {
      * @return String-Darstellung des Bruchs, z.B. {@code 3/4}
      */
     @Override
-    public String toString(){
+    public String toString() {
 
     	return zaehler + "/" + nenner;
     }
