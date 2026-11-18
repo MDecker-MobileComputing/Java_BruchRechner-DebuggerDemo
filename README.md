@@ -4,9 +4,9 @@
 
 Beispielprojekt für Demonstration Debugger von Eclipse.
 
-Fehler ist in Methode `multiplizieren(Bruch)`.
+Der Fehler ist in der Methode `multiplizieren( Bruch )`.
 
-Quellcode-Vorlage: Übungsblatt 9 (P) von "Einführung in die Programmierung" an DHBW
+Quellcode-Vorlage: Übungsblatt 9 (P)
 
 <br>
 
@@ -16,6 +16,7 @@ Quellcode-Vorlage: Übungsblatt 9 (P) von "Einführung in die Programmierung" an
 
 
 Diese Berechnung wird von der im Projekt enthaltenen
-[`main`-Methode](src/de/eldecker/bruchrechner/BruchTest.java#L6) durchgeführt.
+[`main`](src/de/eldecker/bruchrechner/BruchTest.java#L6)-Methode
+durchgeführt.
 
 <br>

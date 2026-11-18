@@ -194,7 +194,4 @@ class Bruch {
 
         return x;
     }
-
 }
-
-
